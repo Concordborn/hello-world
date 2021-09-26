@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google Search</title>
+        <style>
+           #container{
+               display: flex;
+               flex-wrap: wrap;
+               position: fixed;
+               top:0;
+               right:0;
+               padding: 20px;
+               margin: 10px;
+           }
+           #searching{
+                display: flex;                
+                justify-content: center;
+                align-items: center;
+                padding: 20px;
+                
+           }
+
+          
+
+        </style>
+        
+    </head>
+    <body>
+        <div id='searching'>
+            <form id="searchbox" action="https://google.com/search">
+                <input type="text" name="q">
+                <input type="submit" value="Google Search">
+            </form>
+        </div>
+        <div id='container'>
+            <ul>
+                <a  href='imagesearch.html'>Image Search</a>
+                <a  href='advancedsearch.html'>Advanced Search</a>
+            </ul>
+        </div>
+        
+    </body>
+</html>
